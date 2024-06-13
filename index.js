@@ -1,4 +1,4 @@
-// Function to force light mode styles
+
 function forceLightModeStyles() {
   // Select all elements where color might be affected
   const elements = document.querySelectorAll('*');

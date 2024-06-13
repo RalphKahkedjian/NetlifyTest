@@ -5,6 +5,17 @@
   box-sizing: border-box;
 }
 
+body
+{
+  background-color: var(--secondary-color);
+}
+
+:root
+{
+  --primary-color:green;
+  --secondary-color:white;
+}
+
 .first
 {
   position: absolute;
@@ -15,5 +26,5 @@
 
 .first h1
 {
-  color: black;
+  color: var(--primary-color);
 }
